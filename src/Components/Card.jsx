@@ -7,7 +7,6 @@ import { shortenText } from "../Helpers/Helper";
 
 function Card( {data }) {
     const { id , title , image , price } = data ;
-    console.log(data);
   return (
     <>
     <div className={styles.card}>
