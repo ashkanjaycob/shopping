@@ -1,6 +1,6 @@
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     align-items: start;
 }
 
@@ -9,5 +9,4 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    padding: 50px;
 }

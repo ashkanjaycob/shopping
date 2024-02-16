@@ -6,9 +6,11 @@ import CheckoutPage from './Pages/CheckoutPage'
 import NotFound from './Pages/NotFound'
 import ProductsProvider from './context/ProductsProvider'
 import CartProvider from './context/CartContext'
+import Layout from './Components/Layout'
 
 function App() {
   return (
+      <Layout>
       <CartProvider>
       <ProductsProvider>      
         <Routes>
@@ -20,7 +22,7 @@ function App() {
       </Routes>
       </ProductsProvider>
       </CartProvider>
-
+      </Layout>
   )
 }
 
